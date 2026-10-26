@@ -1,0 +1,44 @@
+# secrets / local config
+.env
+.env.*
+!.env.example
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# logs & backups
+*.log
+*.bak*
+*~
+
+# runtime data (never publish chat/user data)
+*_memory.json
+chat_memory.json
+anon_state.json
+panel_config.json
+members_data.json
+jiao_data.json
+jiao_sessions.json
+name_done.txt
+cucumber_data.json
+doll_relay_state.json
+repeat_echo_state.json
+src/plugins/experience/
+src/plugins/stickers.json
+stickers/
+news_docs/
+english_docs/
+voice_cache/
+self_review/
+_versions/
+
+# third-party clients / assets (install yourself)
+napcat/
+
+# OS
+.DS_Store
+Thumbs.db
